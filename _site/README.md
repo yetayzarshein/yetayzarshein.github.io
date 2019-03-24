@@ -1,3 +1,0 @@
-# PanelCV
-
-Comming Soon!
