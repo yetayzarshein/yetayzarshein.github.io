@@ -15,12 +15,9 @@
           center:new google.maps.LatLng(16.803706, 96.174411),
           zoom:10,          
         };
-        var marker = new google.maps.Marker({
-        position:myCenter,
-        animation:google.maps.Animation.BOUNCE
-        });
-        marker.setMap(map);
         var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        var marker = new google.maps.Marker({position: myCenter});
+        marker.setMap(map);
         }
         </script>
 
